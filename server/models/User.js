@@ -36,7 +36,7 @@ const UserSchema = new mongoose.Schema({
     occupation: String, 
     viewdProfile: Number,
     impressions: Number
- }, { timestamps: true }
+ }, { timestamps: true }, 
  );
 
  const User = mongoose.model("User", UserSchema)
